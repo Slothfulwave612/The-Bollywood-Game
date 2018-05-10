@@ -1,0 +1,34 @@
+
+I. Start The Game
+	
+   1. Taking variable name ask for the name of the user and store it in the variable name.
+
+   2. Make a function that will randomly shuffle all the movies name present in the list movieName.
+   	  movieName list should look like this -
+   	               movieName = ['Zindagi/Na/Milegi/Dobara', ----- ]  ; all the spaces are represent through slash.
+
+   3. There will a total of 3 chances to play the game and a total of 9 chances(number of character in Bollywood) to guess the given movie. So 	
+      make a variable totChance and assign it the value 3 and totGuess and assign it the value 9.
+
+   4. Then pick up the first word from the list and display all the vowels and all the other consonents and numbers are displayed by dashes.
+
+   5. Make a variable guess and the user will enter his/her guess character in there, if the guess character is true then it will be displayed 	
+      in the displayed word otherwise totGuess will be decremented by one; and two more variable success and failure assign them a zero as well.
+
+   6. If the totGuess becomes zero then the chance to guess the word is over and your totChance will be decremented by one.
+
+   7. If one guesses three consecutive movie name given correctly then totChance will be incremented by one.
+
+   8. For correctly gussing a movie name 5 points will be given, i.e. points will be increment by 5 and success will be incremented by 1; and 
+      for the wrong guess 2 points will be taken; i.e. failure will be incremented by one.
+
+   9. On displaying the movie name at the last remove all the dashes and replace it by spaces; i.e.
+   					Zindagi/Na/Milegi/Dobara will become Zindagi Na Milegi Dobara
+
+   10. When the totChance becomes zero the game ends and all the stats will be dispalyed on the screen, these stats includes - name, total  
+       score, number of successful attempts, number of unsuccessful attempts.
+
+   * As we are making the program with a class so we will have - name, totScore, success, failure as our data members and we will use the  
+     concept of array of objects to store each stat in a list as objects all these value are assigned at the end of first option.
+
+   
