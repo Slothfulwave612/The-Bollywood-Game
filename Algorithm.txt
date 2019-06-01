@@ -27,8 +27,3 @@ I. Start The Game
 
    10. When the totChance becomes zero the game ends and all the stats will be dispalyed on the screen, these stats includes - name, total  
        score, number of successful attempts, number of unsuccessful attempts.
-
-   * As we are making the program with a class so we will have - name, totScore, success, failure as our data members and we will use the  
-     concept of array of objects to store each stat in a list as objects all these value are assigned at the end of first option.
-
-   
