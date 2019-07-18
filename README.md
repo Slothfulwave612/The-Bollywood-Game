@@ -12,4 +12,4 @@ Python Files Present :- 6 files
         5. movieNameFile.py :- contains a list where all the movies are listed.
         6. reuseFile.py :- contain some of the functions that are reused in the program frequently.
  
-In order to run the program, the user has to run mainMenu.py in order to run the program.
+In order to run the program, the user has to run mainMenu.py
